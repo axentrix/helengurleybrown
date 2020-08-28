@@ -1860,6 +1860,17 @@ body.homepage .sections .page-section:nth-child(3) .content .image-block {
 
 
 @media screen and (max-width: 1024px) {
+
+
+    body.homepage .sections .page-section:nth-child(2) .content {
+        padding-top: 6em !important;
+    }
+
+    body.homepage .sections .page-section:nth-child(3) .content{
+
+        padding-bottom:0;
+        margin-bottom:0;
+    }
     .headersquare {
         min-width: 100px;
         flex: 1 0 calc(5%);
@@ -1954,15 +1965,91 @@ body.homepage .sections .page-section:nth-child(3) .content .image-block {
         /* display: none; */
         position: fixed;
     }
-}
-.fadeIn {
-    opacity: 0 !important;
+
+
+   
 }
 
-.hidden{
-    opacity:0;
-}
 
-footer .section-background.hidden{
-    opacity:1 !important;
-}
+@media screen and (max-width: 768px) {
+
+    .headersquare {
+        min-width: 200px;
+        flex: 1 0 calc(15%);
+        margin: 1px;
+        background: #ffffff;
+    }
+
+    .hgb_legend {
+     
+        min-height: 50vh;
+        
+    }
+    .hgb_fieldset .hgb_text {
+        
+        top: 40vh;
+       
+    }
+
+
+
+    body.homepage .sections .page-section:nth-child(2) .content{
+
+        height:60vh;
+    }
+
+    body.homepage .sections .page-section:nth-child(2) .content .image-block{
+        top:15vh;
+    }
+    body.homepage .sections .page-section:nth-child(3) .content .code-block {
+        top: 10vh;
+        left: 36%;
+        height:auto;
+    }
+    body.homepage .sections .page-section:nth-child(3) .content{
+
+        min-height:10vh !important;
+    }
+
+
+    body.homepage .sections .page-section:nth-child(3) {
+        min-height: 60vh !important;
+        height: auto !important;
+        overflow: visible;
+        align-items: flex-start;
+    }
+
+    body.homepage .sections .page-section:nth-child(4) .content .contentholder{
+        top:40vh;
+        width:50%;
+    }
+
+    body.homepage .sections .page-section:nth-child(4) .content .contentholder a{
+
+        max-width:80%;
+    }
+
+    body.homepage .sections .page-section:nth-child(4) h2 {
+        margin: 0;
+    }
+    body.homepage .sections .page-section:nth-child(4){
+
+        min-height:600px;
+    }
+
+    h2 {
+        font-size: 3.5em !important;
+    }
+    }
+
+    .fadeIn {
+        opacity: 0 !important;
+    }
+
+    .hidden {
+        opacity: 0;
+    }
+
+    footer .section-background.hidden {
+        opacity: 1 !important;
+    }
