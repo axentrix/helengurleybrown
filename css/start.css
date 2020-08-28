@@ -449,6 +449,14 @@ footer .section-background {
   text-transform: uppercase;
   font-size: 1.5em;
 }
+#footer-sections ul li.logo {
+  background-image: url("https://static1.squarespace.com/static/5f44de5925ab9925da3007ac/t/5f47d7e189fdc25b3a1f9ba7/1598543841922/logo_hgb.png");
+  background-position: 50% 50%;
+  display: block;
+  border: solid 1px #fff;
+  width: 64px;
+  height: 64px;
+}
 #footer-sections .col {
   display: flex;
   flex-wrap: wrap;
