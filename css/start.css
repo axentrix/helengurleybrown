@@ -1513,3 +1513,12 @@ body.homepage .sections .page-section:nth-child(3) .content .image-block {
     position: fixed;
   }
 }
+.fadeIn {
+  opacity: 0 !important;
+}
+.hidden {
+  opacity: 0;
+}
+footer .section-background.hidden {
+  opacity: 1 !important;
+}
